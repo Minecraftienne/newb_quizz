@@ -1,6 +1,6 @@
 # Newb Quizz
 
-Auteurs : Baptiste ROUXEL & Tiffany HAUMEY
+Auteurs : Baptiste ROUXEL & Tiffany HAUMEY  
 Utilisation de Cordova et Ionic
 
 ## Commandes
