@@ -1,0 +1,42 @@
+{
+    "questions": [
+
+        {
+            "flashCardFront": "<img src='assets/imgs/linux.png' />",
+            "flashCardBack": "1991",
+            "flashCardFlipped": false,
+            "questionText": "Quand a été créé le noyau Linux ?",
+            "answers": [
+                {"answer": "1989", "correct": false, "selected": false},
+                {"answer": "1990", "correct": false, "selected": false},
+                {"answer": "1991", "correct": true, "selected": false},
+                {"answer": "1992", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/programmation.png' />",
+            "flashCardBack": "C",
+            "flashCardFlipped": false,
+            "questionText": "Quel est le langage de programmation le plus utilisé en 2013 ?",
+            "answers": [
+                {"answer": "C", "correct": true, "selected": false},
+                {"answer": "Java", "correct": false, "selected": false},
+                {"answer": "Objective-C", "correct": false, "selected": false},
+                {"answer": "C++", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/minecraft.png' />",
+            "flashCardBack": "Java",
+            "flashCardFlipped": false,
+            "questionText": "En quel langage Minecraft a-t-il été écrit sur PC ?",
+            "answers": [
+                {"answer": "C++", "correct": false, "selected": false},
+                {"answer": "Java", "correct": true, "selected": false},
+                {"answer": "C#", "correct": false, "selected": false},
+                {"answer": "Pascal", "correct": false, "selected": false}
+            ]
+        }
+
+    ]
+}
