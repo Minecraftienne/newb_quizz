@@ -11,21 +11,16 @@ export class Data {
 
     }
 
-    load(){
-
-        if(this.data){
+    load(theme) {
+        if(this.data) {
             return Promise.resolve(this.data);
         }
-
         return new Promise(resolve => {
 
-            this.http.get('assets/data/questions.json').map(res => res.json()).subscribe(data => {
+            this.http.get('assets/data/' + theme + '.json').map(res => res.json()).subscribe(data => {
                 this.data = data.questions;
                 resolve(this.data);
             });
-
         });
-
     }
-
 }

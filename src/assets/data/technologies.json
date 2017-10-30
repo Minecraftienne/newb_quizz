@@ -36,7 +36,90 @@
                 {"answer": "C#", "correct": false, "selected": false},
                 {"answer": "Pascal", "correct": false, "selected": false}
             ]
-        }
-
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/nes.png' />",
+            "flashCardBack": "1985",
+            "flashCardFlipped": false,
+            "questionText": "En quelle année est sortie la NES aux États-Unis ?",
+            "answers": [
+                {"answer": "1983", "correct": false, "selected": false},
+                {"answer": "1984", "correct": false, "selected": false},
+                {"answer": "1985", "correct": true, "selected": false},
+                {"answer": "1986", "correct": false, "selected": false}
+            ]
+          },
+            {
+                "flashCardFront": "<img src='assets/imgs/smartphone.png' />",
+                "flashCardBack": "IBM",
+                "flashCardFlipped": false,
+                "questionText": "Qui a créé le premier smartphone ?",
+                "answers": [
+                    {"answer": "BlackBerry", "correct": false, "selected": false},
+                    {"answer": "Symbian", "correct": false, "selected": false},
+                    {"answer": "Nokia", "correct": false, "selected": false},
+                    {"answer": "IBM", "correct": true, "selected": false}
+                ]
+            },
+            {
+                "flashCardFront": "<img src='assets/imgs/playstation.png' />",
+                "flashCardBack": "1995",
+                "flashCardFlipped": false,
+                "questionText": "En quelle année est sortie la PlayStation en Europe ?",
+                "answers": [
+                    {"answer": "1993", "correct": false, "selected": false},
+                    {"answer": "1994", "correct": false, "selected": false},
+                    {"answer": "1995", "correct": true, "selected": false},
+                    {"answer": "1996", "correct": false, "selected": false}
+                ]
+            },
+            {
+                "flashCardFront": "<img src='assets/imgs/androidmarket.png' />",
+                "flashCardBack": "10 milliards",
+                "flashCardFlipped": false,
+                "questionText": "En 2011, combien de milliards de téléchargements d'applications l'Android Market a-t-il atteint ?",
+                "answers": [
+                    {"answer": "1 milliard", "correct": false, "selected": false},
+                    {"answer": "5 milliards", "correct": false, "selected": false},
+                    {"answer": "10 milliards", "correct": true, "selected": false},
+                    {"answer": "15 milliards", "correct": false, "selected": false}
+                ]
+            },
+            {
+                "flashCardFront": "<img src='assets/imgs/facebook.png' />",
+                "flashCardBack": "2004",
+                "flashCardFlipped": false,
+                "questionText": "Quelle est la date de création de Facebook ?",
+                "answers": [
+                    {"answer": "2003", "correct": false, "selected": false},
+                    {"answer": "2004", "correct": true, "selected": false},
+                    {"answer": "2005", "correct": false, "selected": false},
+                    {"answer": "2006", "correct": false, "selected": false}
+                ]
+            },
+            {
+                "flashCardFront": "<img src='assets/imgs/anonymous.png' />",
+                "flashCardBack": "D'une bande dessinée",
+                "flashCardFlipped": false,
+                "questionText": "D'où vient le célèbre masque des Anonymous ?",
+                "answers": [
+                    {"answer": "D'une bande dessinée", "correct": true, "selected": false},
+                    {"answer": "D'une série télévisée", "correct": false, "selected": false},
+                    {"answer": "D'un hacker", "correct": false, "selected": false},
+                    {"answer": "D'un musicien", "correct": false, "selected": false}
+                ]
+            },
+            {
+                "flashCardFront": "<img src='assets/imgs/grepolis.png' />",
+                "flashCardBack": "Antiquité",
+                "flashCardFlipped": false,
+                "questionText": "A quelle époque se déroule le jeu par navigateur Grepolis ?",
+                "answers": [
+                    {"answer": "Epoque contemporaine", "correct": false, "selected": false},
+                    {"answer": "Moyen-Age", "correct": false, "selected": false},
+                    {"answer": "Antiquité", "correct": true, "selected": false},
+                    {"answer": "Préhistoire", "correct": false, "selected": false}
+                ]
+            }
     ]
 }

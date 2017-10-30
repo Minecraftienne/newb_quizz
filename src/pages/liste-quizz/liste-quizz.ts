@@ -1,25 +1,22 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the ListeQuizzPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
   selector: 'page-liste-quizz',
   templateUrl: 'liste-quizz.html',
 })
+
 export class ListeQuizzPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ListeQuizzPage');
+  // on récupère le thème du quizz (ex: mode)
+  charger(dataTheme) {
+    this.navCtrl.push(HomePage, {
+      theme:dataTheme,
+    });
   }
-
 }
