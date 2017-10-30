@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { ListeQuizzPage } from '../pages/liste-quizz/liste-quizz';
 import { FlashCardComponent } from '../components/flash-card/flash-card';
 import { Data } from '../providers/data/data';
 
@@ -14,7 +15,8 @@ import { Data } from '../providers/data/data';
   declarations: [
     MyApp,
     HomePage,
-    FlashCardComponent
+    FlashCardComponent,
+    ListeQuizzPage
   ],
   imports: [
     BrowserModule,
@@ -24,6 +26,7 @@ import { Data } from '../providers/data/data';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    ListeQuizzPage,
     HomePage
   ],
   providers: [

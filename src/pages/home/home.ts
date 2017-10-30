@@ -21,38 +21,30 @@ export class HomePage {
     }
 
     ionViewDidLoad() {
-
         this.slides.lockSwipes(true);
-
         this.dataService.load().then((data) => {
 
             data.map((question) => {
-
                 let originalOrder = question.answers;
                 question.answers = this.randomizeAnswers(originalOrder);
                 return question;
-
             });
-
             this.questions = data;
-
         });
-
     }
 
-    nextSlide(){
+    nextSlide() {
         this.slides.lockSwipes(false);
         this.slides.slideNext();
         this.slides.lockSwipes(true);
     }
 
-    selectAnswer(answer, question){
-
+    selectAnswer(answer, question) {
         this.hasAnswered = true;
         answer.selected = true;
         question.flashCardFlipped = true;
 
-        if(answer.correct){
+        if (answer.correct) {
             this.score++;
         }
 
@@ -65,16 +57,13 @@ export class HomePage {
     }
 
     randomizeAnswers(rawAnswers: any[]): any[] {
-
         for (let i = rawAnswers.length - 1; i > 0; i--) {
             let j = Math.floor(Math.random() * (i + 1));
             let temp = rawAnswers[i];
             rawAnswers[i] = rawAnswers[j];
             rawAnswers[j] = temp;
         }
-
         return rawAnswers;
-
     }
 
     restartQuiz() {
@@ -83,5 +72,4 @@ export class HomePage {
         this.slides.slideTo(1, 1000);
         this.slides.lockSwipes(true);
     }
-
 }

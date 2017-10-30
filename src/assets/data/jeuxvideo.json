@@ -1,0 +1,42 @@
+{
+    "questions": [
+
+        {
+            "flashCardFront": "<img src='assets/imgs/sims.png' />",
+            "flashCardBack": "2000",
+            "flashCardFlipped": false,
+            "questionText": "Quelle est la date de sortie du premier épisode des Sims sur PC ?",
+            "answers": [
+                {"answer": "1997", "correct": false, "selected": false},
+                {"answer": "1998", "correct": false, "selected": false},
+                {"answer": "1999", "correct": false, "selected": false},
+                {"answer": "2000", "correct": true, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/notch.png' />",
+            "flashCardBack": "Suédoise",
+            "flashCardFlipped": false,
+            "questionText": "Quelle est la nationalité de Notch, le créateur de Minecraft ?",
+            "answers": [
+                {"answer": "Américaine", "correct": false, "selected": false},
+                {"answer": "Suédoise", "correct": true, "selected": false},
+                {"answer": "Norvégienne", "correct": false, "selected": false},
+                {"answer": "Finlandaise", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/mafia.png' />",
+            "flashCardBack": "2002",
+            "flashCardFlipped": false,
+            "questionText": "Quelle est la date de sortie du premier Mafia sur PC ?",
+            "answers": [
+                {"answer": "2000", "correct": false, "selected": false},
+                {"answer": "2001", "correct": false, "selected": false},
+                {"answer": "2002", "correct": true, "selected": false},
+                {"answer": "2003", "correct": false, "selected": false}
+            ]
+        }
+
+    ]
+}
