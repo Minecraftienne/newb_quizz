@@ -1,0 +1,125 @@
+{
+    "questions": [
+
+        {
+            "flashCardFront": "<img src='assets/imgs/vampirediaries.png' />",
+            "flashCardBack": "Ian Somerhalder",
+            "flashCardFlipped": false,
+            "questionText": "Qui joue le rôle de Damon Salvatore dans Vampire Diaries ?",
+            "answers": [
+                {"answer": "Paul Wesley", "correct": false, "selected": false},
+                {"answer": "Ian Somerhalder", "correct": true, "selected": false},
+                {"answer": "Steven R. McQueen", "correct": false, "selected": false},
+                {"answer": "Zach Roerig", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/sfu.png' />",
+            "flashCardBack": "Alan Ball",
+            "flashCardFlipped": false,
+            "questionText": "Qui a créé la série Six Feet Under ?",
+            "answers": [
+                {"answer": "Peter Krause", "correct": false, "selected": false},
+                {"answer": "Michael C. Hall", "correct": false, "selected": false},
+                {"answer": "Vince Gilligan", "correct": false, "selected": false},
+                {"answer": "Alan Ball", "correct": true, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/breakingbad.png' />",
+            "flashCardBack": "Albuquerque",
+            "flashCardFlipped": false,
+            "questionText": "Où se déroule l'histoire dans Breaking Bad ?",
+            "answers": [
+                {"answer": "Albuquerque", "correct": true, "selected": false},
+                {"answer": "Roswell", "correct": false, "selected": false},
+                {"answer": "Santa Fe", "correct": false, "selected": false},
+                {"answer": "Las Cruces", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/got.png' />",
+            "flashCardBack": "Peter Dinklage",
+            "flashCardFlipped": false,
+            "questionText": "Qui interprète Tyrion Lannister dans Game of Thrones ?",
+            "answers": [
+                {"answer": "Kit Harington", "correct": false, "selected": false},
+                {"answer": "Peter Dinklage", "correct": true, "selected": false},
+                {"answer": "Richard Madden", "correct": false, "selected": false},
+                {"answer": "Charles Dance", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/.png' />",
+            "flashCardBack": "",
+            "flashCardFlipped": false,
+            "questionText": "",
+            "answers": [
+                {"answer": "", "correct": false, "selected": false},
+                {"answer": "", "correct": false, "selected": false},
+                {"answer": "", "correct": false, "selected": false},
+                {"answer": "", "correct": true, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/assassinscreed.png' />",
+            "flashCardBack": "Altaïr",
+            "flashCardFlipped": false,
+            "questionText": "Comment s’appelle l’assassin que l’on incarne dans le premier Assassin’s Creed ?",
+            "answers": [
+                {"answer": "Altaïr", "correct": true, "selected": false},
+                {"answer": "Ezio", "correct": false, "selected": false},
+                {"answer": "Connor", "correct": false, "selected": false},
+                {"answer": "Edward", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/bioware.png' />",
+            "flashCardBack": "The Witcher",
+            "flashCardFlipped": false,
+            "questionText": "Quel est le jeu qui n’a pas été développé par BioWare ?",
+            "answers": [
+                {"answer": "Mass Effect", "correct": false, "selected": false},
+                {"answer": "Dragon Age : Origins", "correct": false, "selected": false},
+                {"answer": "Baldur's Gate", "correct": false, "selected": false},
+                {"answer": "The Witcher", "correct": true, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/rememberme.png' />",
+            "flashCardBack": "Française",
+            "flashCardFlipped": false,
+            "questionText": "Remember Me est un jeu développé par un studio de nationalité...",
+            "answers": [
+                {"answer": "Française", "correct": true, "selected": false},
+                {"answer": "Américaine", "correct": false, "selected": false},
+                {"answer": "Japonaise", "correct": false, "selected": false},
+                {"answer": "Polonaise", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/anno2070.png' />",
+            "flashCardBack": "Related Designs",
+            "flashCardFlipped": false,
+            "questionText": "Qui est le développeur d'Anno 2070 ?",
+            "answers": [
+                {"answer": "Sunflowers", "correct": false, "selected": false},
+                {"answer": "Related Designs", "correct": true, "selected": false},
+                {"answer": "Ubisoft", "correct": false, "selected": false},
+                {"answer": "GT Interactive", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='assets/imgs/valve.png' />",
+            "flashCardBack": "Dead Island",
+            "flashCardFlipped": false,
+            "questionText": "Lequel de ces jeux Valve n’a-t-il pas édité ?",
+            "answers": [
+                {"answer": "Dota 2", "correct": false, "selected": false},
+                {"answer": "Alien Swarm", "correct": false, "selected": false},
+                {"answer": "Dead Island", "correct": true, "selected": false},
+                {"answer": "Portal", "correct": false, "selected": false}
+            ]
+        }
+    ]
+}
