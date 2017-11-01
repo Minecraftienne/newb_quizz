@@ -8,7 +8,7 @@
 
         <ion-slide *ngFor="let question of questions; let i = index;">
 
-            <h3>Question n°{{i+1}}</h3>
+            <h3>Question n°{{i+1}}/10</h3>
 
             <flash-card [isFlipped]="question.flashCardFlipped">
                 <div class="flash-card-front" [innerHTML]="question.flashCardFront"></div>
