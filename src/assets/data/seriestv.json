@@ -50,75 +50,75 @@
             ]
         },
         {
-            "flashCardFront": "<img src='assets/imgs/.png' />",
-            "flashCardBack": "",
+            "flashCardFront": "<img src='assets/imgs/wire.png' />",
+            "flashCardBack": "Baltimore",
             "flashCardFlipped": false,
-            "questionText": "",
+            "questionText": "Dans quelle ville se déroule la série dans The Wire ?",
             "answers": [
-                {"answer": "", "correct": false, "selected": false},
-                {"answer": "", "correct": false, "selected": false},
-                {"answer": "", "correct": false, "selected": false},
-                {"answer": "", "correct": true, "selected": false}
+              {"answer": "Détroit", "correct": false, "selected": false},
+              {"answer": "El Paso", "correct": false, "selected": false},
+              {"answer": "Baltimore", "correct": true, "selected": false},
+              {"answer": "Seattle", "correct": false, "selected": false}
             ]
         },
         {
-            "flashCardFront": "<img src='assets/imgs/assassinscreed.png' />",
-            "flashCardBack": "Altaïr",
+            "flashCardFront": "<img src='assets/imgs/shield.png' />",
+            "flashCardBack": "Victor Mackey",
             "flashCardFlipped": false,
-            "questionText": "Comment s’appelle l’assassin que l’on incarne dans le premier Assassin’s Creed ?",
+            "questionText": "Quel rôle joue Michael Chiklis dans la série The Shield ?",
             "answers": [
-                {"answer": "Altaïr", "correct": true, "selected": false},
-                {"answer": "Ezio", "correct": false, "selected": false},
-                {"answer": "Connor", "correct": false, "selected": false},
-                {"answer": "Edward", "correct": false, "selected": false}
+                {"answer": "Victor Mackey", "correct": true, "selected": false},
+                {"answer": "Shane Vendrell", "correct": false, "selected": false},
+                {"answer": "Curtis Lemansky", "correct": false, "selected": false},
+                {"answer": "Ronald Gardocki", "correct": false, "selected": false}
             ]
         },
         {
-            "flashCardFront": "<img src='assets/imgs/bioware.png' />",
-            "flashCardBack": "The Witcher",
-            "flashCardFlipped": false,
-            "questionText": "Quel est le jeu qui n’a pas été développé par BioWare ?",
-            "answers": [
-                {"answer": "Mass Effect", "correct": false, "selected": false},
-                {"answer": "Dragon Age : Origins", "correct": false, "selected": false},
-                {"answer": "Baldur's Gate", "correct": false, "selected": false},
-                {"answer": "The Witcher", "correct": true, "selected": false}
+          "flashCardFront": "<img src='assets/imgs/oz.png' />",
+          "flashCardBack": "Homicide involontaire",
+          "flashCardFlipped": false,
+          "questionText": "Pour quel raison Tobias Beecher a-t-il été incarcéré dans Oz ?",
+          "answers": [
+              {"answer": "Détention de substances illicites", "correct": false, "selected": false},
+              {"answer": "Homicide involontaire", "correct": true, "selected": false},
+              {"answer": "Incendie criminel", "correct": false, "selected": false},
+              {"answer": "Attaque à main armée", "correct": false, "selected": false}
             ]
         },
         {
-            "flashCardFront": "<img src='assets/imgs/rememberme.png' />",
-            "flashCardBack": "Française",
-            "flashCardFlipped": false,
-            "questionText": "Remember Me est un jeu développé par un studio de nationalité...",
-            "answers": [
-                {"answer": "Française", "correct": true, "selected": false},
-                {"answer": "Américaine", "correct": false, "selected": false},
-                {"answer": "Japonaise", "correct": false, "selected": false},
-                {"answer": "Polonaise", "correct": false, "selected": false}
+          "flashCardFront": "<img src='assets/imgs/arrow.png' />",
+          "flashCardBack": "Stephen Amell",
+          "flashCardFlipped": false,
+          "questionText": "Qui interprète Oliver Queen dans Arrow ?",
+          "answers": [
+              {"answer": "Stephen Amell", "correct": true, "selected": false},
+              {"answer": "David Ramsey", "correct": false, "selected": false},
+              {"answer": "Paul Blackthorne", "correct": false, "selected": false},
+              {"answer": "Colton Haynes", "correct": false, "selected": false}
             ]
         },
         {
-            "flashCardFront": "<img src='assets/imgs/anno2070.png' />",
-            "flashCardBack": "Related Designs",
-            "flashCardFlipped": false,
-            "questionText": "Qui est le développeur d'Anno 2070 ?",
-            "answers": [
-                {"answer": "Sunflowers", "correct": false, "selected": false},
-                {"answer": "Related Designs", "correct": true, "selected": false},
-                {"answer": "Ubisoft", "correct": false, "selected": false},
-                {"answer": "GT Interactive", "correct": false, "selected": false}
+          "flashCardFront": "<img src='assets/imgs/desperate.png' />",
+          "flashCardBack": "Desperate Housewives",
+          "flashCardFlipped": false,
+          "questionText": "Dans quelle série n'a pas joué Alyson Hannigan ?",
+          "answers": [
+              {"answer": "How I Met Your Mother", "correct": false, "selected": false},
+              {"answer": "Veronica Mars", "correct": false, "selected": false},
+              {"answer": "Desperate Housewives", "correct": true, "selected": false},
+              {"answer": "Buffy contre les vampires", "correct": false, "selected": false}
             ]
         },
         {
-            "flashCardFront": "<img src='assets/imgs/valve.png' />",
-            "flashCardBack": "Dead Island",
-            "flashCardFlipped": false,
-            "questionText": "Lequel de ces jeux Valve n’a-t-il pas édité ?",
-            "answers": [
-                {"answer": "Dota 2", "correct": false, "selected": false},
-                {"answer": "Alien Swarm", "correct": false, "selected": false},
-                {"answer": "Dead Island", "correct": true, "selected": false},
-                {"answer": "Portal", "correct": false, "selected": false}
+          "flashCardFront": "<img src='assets/imgs/buffy.png' />",
+          "flashCardBack": "Rupert Giles",
+          "flashCardFlipped": false,
+          "questionText": "Comment s'appelle l'observateur de Buffy dans Buffy contre les vampires ?",
+          "answers": [
+              {"answer": "Rupert Giles", "correct": true, "selected": false},
+              {"answer": "Alexander Harris", "correct": false, "selected": false},
+              {"answer": "Angel", "correct": false, "selected": false},
+              {"answer": "Riley Finn", "correct": false, "selected": false}
             ]
         }
     ]

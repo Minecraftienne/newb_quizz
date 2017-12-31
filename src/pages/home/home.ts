@@ -86,6 +86,7 @@ export class HomePage {
 
     // retour à la liste des thèmes
     menu() {
+      this.navCtrl.pop();
       this.navCtrl.push(ListeQuizzPage);
     }
 }

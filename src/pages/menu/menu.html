@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Newb Quizz</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="cards-bg">
+  <ion-card class="cards-list-demo">
+    <ion-list>
+      <ion-card-header>
+        Menu
+      </ion-card-header>
+
+        <button ion-item (click)="goListeQuizz()">
+          <ion-icon name='color-palette' item-start></ion-icon>
+          Choisir un thème
+        </button>
+
+        <button ion-item (click)="goSuggestionQuestion()">
+          <ion-icon name='chatbubbles' item-start></ion-icon>
+          Envoyer une question
+        </button>
+
+      </ion-list>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Newb Quizz</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Modifier une question</h2>
+  <form (ngSubmit)="updateData()">
+    <ion-item>
+      <ion-label>Nom de la question</ion-label>
+      <ion-input type="text" placeholder="Nom de la question" [(ngModel)]="data.nom_question" name="nom_question" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse A</ion-label>
+      <ion-input type="text" placeholder="Réponse A" [(ngModel)]="data.reponseA" name="reponseA" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse B</ion-label>
+      <ion-input type="text" placeholder="Réponse B" [(ngModel)]="data.reponseB" name="reponseB" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse C</ion-label>
+      <ion-input type="text" placeholder="Réponse C" [(ngModel)]="data.reponseC" name="reponseC" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse D</ion-label>
+      <ion-input type="text" placeholder="Réponse D" [(ngModel)]="data.reponseD" name="reponseD" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Bonne réponse</ion-label>
+      <ion-input type="text" placeholder="Bonne réponse" [(ngModel)]="data.bonne_reponse" name="bonne_reponse" required="" ></ion-input>
+    </ion-item>
+    <ion-input type="hidden" [(ngModel)]="data.rowid" name="rowid"></ion-input>
+    <button ion-button type="submit" block>Mettre à jour la question</button>
+  </form>
+</ion-content>

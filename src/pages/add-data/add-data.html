@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Newb Quizz</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Ajouter une question</h2>
+  <form (ngSubmit)="saveData()">
+    <ion-item>
+      <ion-label>Nom de la question</ion-label>
+      <ion-input type="text" [(ngModel)]="data.nom_question" name="nom_question" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse A</ion-label>
+      <ion-input type="text" [(ngModel)]="data.reponseA" name="reponseA" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse B</ion-label>
+      <ion-input type="text" [(ngModel)]="data.reponseB" name="reponseB" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse C</ion-label>
+      <ion-input type="text" [(ngModel)]="data.reponseC" name="reponseC" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Réponse D</ion-label>
+      <ion-input type="text" [(ngModel)]="data.reponseD" name="reponseD" required="" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Bonne réponse</ion-label>
+      <ion-input type="text" [(ngModel)]="data.bonne_reponse" name="bonne_reponse" required="" ></ion-input>
+    </ion-item>
+    <button ion-button type="submit" block>Sauvegarder la question</button>
+  </form>
+</ion-content>
