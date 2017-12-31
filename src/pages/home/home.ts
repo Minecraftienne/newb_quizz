@@ -28,7 +28,6 @@ export class HomePage {
     ionViewDidLoad() {
         this.slides.lockSwipes(true);
         this.dataService.load(this.theme).then((data) => {
-
             data.map((question) => {
                 let originalOrder = question.answers;
                 question.answers = this.randomizeAnswers(originalOrder);
@@ -86,7 +85,6 @@ export class HomePage {
 
     // retour à la liste des thèmes
     menu() {
-      this.navCtrl.pop();
       this.navCtrl.push(ListeQuizzPage);
     }
 }

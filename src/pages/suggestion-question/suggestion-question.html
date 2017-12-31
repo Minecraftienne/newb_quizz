@@ -15,7 +15,7 @@
   <h2>Liste des questions</h2>
   <ion-list>
     <ion-item-sliding *ngFor="let question of questions; let i=index">
-      <ion-item nopadding>
+      <button ion-item nopadding (click)="toast()">
         <p>
           <span>{{question.nom_question}}</span><br>
           Réponse A : {{question.reponseA}}<br>
@@ -26,7 +26,7 @@
         <h3 item-end>
           Bonne réponse : {{question.bonne_reponse}}
         </h3>
-      </ion-item>
+      </button>
       <ion-item-options side="right">
         <button ion-button color="primary" (click)="editData(question.rowid)">
           <ion-icon name="paper"></ion-icon>

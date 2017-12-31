@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { ToastController } from 'ionic-angular';
 import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { AddDataPage } from '../add-data/add-data';
 import { EditDataPage } from '../edit-data/edit-data';
@@ -13,7 +14,7 @@ export class SuggestionQuestionPage {
 
   questions: any = [];
 
-  constructor(public navCtrl: NavController, private sqlite: SQLite) {
+  constructor(public navCtrl: NavController, private sqlite: SQLite, public toastCtrl: ToastController) {
 
   }
 
@@ -52,6 +53,16 @@ export class SuggestionQuestionPage {
     this.navCtrl.push(EditDataPage, {
       rowid:rowid
     });
+  }
+
+  toast() {
+    let toast = this.toastCtrl.create({
+      message: 'Slider vers la gauche pour éditer ou supprimer une question',
+      duration: 3000,
+      position: 'bottom'
+    });
+
+    toast.present();
   }
 
   deleteData(rowid) {

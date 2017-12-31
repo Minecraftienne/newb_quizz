@@ -16,10 +16,10 @@ export class Data {
             return Promise.resolve(this.data);
         }
         return new Promise(resolve => {
-
             this.http.get('assets/data/' + theme + '.json').map(res => res.json()).subscribe(data => {
                 this.data = data.questions;
                 resolve(this.data);
+                this.data = undefined; // sinon le theme est toujours le premier qu'on sélectionne au début
             });
         });
     }
